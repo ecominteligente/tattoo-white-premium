@@ -1025,7 +1025,8 @@ img {
   padding: 45px 30px;
   -webkit-transition-duration: 500ms;
   transition-duration: 500ms;
-  border: 1px solid transparent; }
+  border: 1px solid #d8d8d8;
+  background-color: #f5f9fa; }
   .weeks-top-area .single-top-item {
     position: relative;
     z-index: 1;
@@ -1924,4 +1925,38 @@ margin-bottom:10px;
 
 .albums-text p{
 margin-top:5px;
+}
+
+.single-top-item,
+.single-new-item,
+.single-artists{
+text-decoration:none;
+color:inherit;
+display:flex;
+cursor:pointer;
+}
+
+.single-top-item:hover,
+.single-new-item:hover,
+.single-artists:hover{
+opacity:0.9;
+}
+
+#orcamentoBtn{
+background:#cc1573;
+color:#fff !important;
+padding:10px 22px;
+border-radius:30px;
+font-weight:700;
+font-size:14px;
+letter-spacing:1px;
+text-decoration:none;
+transition:0.3s;
+box-shadow:0 5px 15px rgba(0,0,0,0.2);
+}
+
+#orcamentoBtn:hover{
+background:#a80f5d;
+transform:translateY(-2px);
+box-shadow:0 8px 20px rgba(0,0,0,0.3);
 }
